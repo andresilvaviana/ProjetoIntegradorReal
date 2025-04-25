@@ -222,7 +222,7 @@
             // 
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.Font = new System.Drawing.Font("Candara", 12F);
-            this.lblCategoria.Location = new System.Drawing.Point(695, 66);
+            this.lblCategoria.Location = new System.Drawing.Point(576, 58);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(75, 19);
             this.lblCategoria.TabIndex = 14;
