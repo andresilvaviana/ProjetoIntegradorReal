@@ -94,7 +94,7 @@
             // 
             this.lblCPF.AutoSize = true;
             this.lblCPF.Font = new System.Drawing.Font("Candara", 12F);
-            this.lblCPF.Location = new System.Drawing.Point(30, 36);
+            this.lblCPF.Location = new System.Drawing.Point(29, 35);
             this.lblCPF.Name = "lblCPF";
             this.lblCPF.Size = new System.Drawing.Size(104, 19);
             this.lblCPF.TabIndex = 41;
