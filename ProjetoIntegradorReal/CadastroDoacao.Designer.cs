@@ -57,6 +57,8 @@
             this.lblLivro1 = new System.Windows.Forms.Label();
             this.lblLivro2 = new System.Windows.Forms.Label();
             this.lblLivro3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtDescricaoProduto
@@ -73,6 +75,7 @@
             // lblDescricaoProduto
             // 
             this.lblDescricaoProduto.AutoSize = true;
+            this.lblDescricaoProduto.BackColor = System.Drawing.Color.Transparent;
             this.lblDescricaoProduto.Enabled = false;
             this.lblDescricaoProduto.Font = new System.Drawing.Font("Candara", 12F);
             this.lblDescricaoProduto.Location = new System.Drawing.Point(25, 192);
@@ -93,8 +96,9 @@
             // lblCPF
             // 
             this.lblCPF.AutoSize = true;
+            this.lblCPF.BackColor = System.Drawing.Color.Transparent;
             this.lblCPF.Font = new System.Drawing.Font("Candara", 12F);
-            this.lblCPF.Location = new System.Drawing.Point(29, 35);
+            this.lblCPF.Location = new System.Drawing.Point(42, 37);
             this.lblCPF.Name = "lblCPF";
             this.lblCPF.Size = new System.Drawing.Size(104, 19);
             this.lblCPF.TabIndex = 41;
@@ -103,6 +107,7 @@
             // lblRoupa2
             // 
             this.lblRoupa2.AutoSize = true;
+            this.lblRoupa2.BackColor = System.Drawing.Color.Transparent;
             this.lblRoupa2.Enabled = false;
             this.lblRoupa2.Font = new System.Drawing.Font("Candara", 12F);
             this.lblRoupa2.Location = new System.Drawing.Point(160, 107);
@@ -115,6 +120,7 @@
             // lblRoupa3
             // 
             this.lblRoupa3.AutoSize = true;
+            this.lblRoupa3.BackColor = System.Drawing.Color.Transparent;
             this.lblRoupa3.Enabled = false;
             this.lblRoupa3.Font = new System.Drawing.Font("Candara", 12F);
             this.lblRoupa3.Location = new System.Drawing.Point(293, 107);
@@ -169,6 +175,7 @@
             // lblRoupa1
             // 
             this.lblRoupa1.AutoSize = true;
+            this.lblRoupa1.BackColor = System.Drawing.Color.Transparent;
             this.lblRoupa1.Enabled = false;
             this.lblRoupa1.Font = new System.Drawing.Font("Candara", 12F);
             this.lblRoupa1.Location = new System.Drawing.Point(25, 107);
@@ -180,7 +187,6 @@
             // 
             // cmbProduto
             // 
-            this.cmbProduto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbProduto.Font = new System.Drawing.Font("Candara", 12F);
             this.cmbProduto.FormattingEnabled = true;
             this.cmbProduto.Items.AddRange(new object[] {
@@ -195,6 +201,7 @@
             // lblProduto
             // 
             this.lblProduto.AutoSize = true;
+            this.lblProduto.BackColor = System.Drawing.Color.Transparent;
             this.lblProduto.Font = new System.Drawing.Font("Candara", 12F);
             this.lblProduto.Location = new System.Drawing.Point(260, 36);
             this.lblProduto.Name = "lblProduto";
@@ -228,15 +235,15 @@
             // 
             this.btnVoltar.BackColor = System.Drawing.SystemColors.Window;
             this.btnVoltar.Font = new System.Drawing.Font("Candara", 12F);
-            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVoltar.ImageKey = "(nenhum/a)";
-            this.btnVoltar.Location = new System.Drawing.Point(147, 344);
+            this.btnVoltar.Location = new System.Drawing.Point(170, 336);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(111, 34);
             this.btnVoltar.TabIndex = 45;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
@@ -245,19 +252,19 @@
             this.btnCadastrar.BackColor = System.Drawing.SystemColors.Window;
             this.btnCadastrar.Font = new System.Drawing.Font("Candara", 12F);
             this.btnCadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrar.Image")));
-            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCadastrar.Location = new System.Drawing.Point(301, 344);
+            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCadastrar.Location = new System.Drawing.Point(302, 336);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(111, 34);
             this.btnCadastrar.TabIndex = 44;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // lblBrinq2
             // 
             this.lblBrinq2.AutoSize = true;
+            this.lblBrinq2.BackColor = System.Drawing.Color.Transparent;
             this.lblBrinq2.Enabled = false;
             this.lblBrinq2.Font = new System.Drawing.Font("Candara", 12F);
             this.lblBrinq2.Location = new System.Drawing.Point(190, 107);
@@ -270,6 +277,7 @@
             // lblBrinq3
             // 
             this.lblBrinq3.AutoSize = true;
+            this.lblBrinq3.BackColor = System.Drawing.Color.Transparent;
             this.lblBrinq3.Enabled = false;
             this.lblBrinq3.Font = new System.Drawing.Font("Candara", 12F);
             this.lblBrinq3.Location = new System.Drawing.Point(324, 107);
@@ -324,6 +332,7 @@
             // lblBrinq1
             // 
             this.lblBrinq1.AutoSize = true;
+            this.lblBrinq1.BackColor = System.Drawing.Color.Transparent;
             this.lblBrinq1.Enabled = false;
             this.lblBrinq1.Font = new System.Drawing.Font("Candara", 12F);
             this.lblBrinq1.Location = new System.Drawing.Point(56, 107);
@@ -335,7 +344,6 @@
             // 
             // cbxLivro1
             // 
-            this.cbxLivro1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxLivro1.Enabled = false;
             this.cbxLivro1.Font = new System.Drawing.Font("Candara", 12F);
             this.cbxLivro1.FormattingEnabled = true;
@@ -349,7 +357,6 @@
             // 
             // cbxLivro2
             // 
-            this.cbxLivro2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxLivro2.Enabled = false;
             this.cbxLivro2.Font = new System.Drawing.Font("Candara", 12F);
             this.cbxLivro2.FormattingEnabled = true;
@@ -363,7 +370,6 @@
             // 
             // cbxLivro3
             // 
-            this.cbxLivro3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxLivro3.Enabled = false;
             this.cbxLivro3.Font = new System.Drawing.Font("Candara", 12F);
             this.cbxLivro3.FormattingEnabled = true;
@@ -378,6 +384,7 @@
             // lblLivro1
             // 
             this.lblLivro1.AutoSize = true;
+            this.lblLivro1.BackColor = System.Drawing.Color.Transparent;
             this.lblLivro1.Enabled = false;
             this.lblLivro1.Font = new System.Drawing.Font("Candara", 12F);
             this.lblLivro1.Location = new System.Drawing.Point(98, 107);
@@ -390,6 +397,7 @@
             // lblLivro2
             // 
             this.lblLivro2.AutoSize = true;
+            this.lblLivro2.BackColor = System.Drawing.Color.Transparent;
             this.lblLivro2.Enabled = false;
             this.lblLivro2.Font = new System.Drawing.Font("Candara", 12F);
             this.lblLivro2.Location = new System.Drawing.Point(232, 107);
@@ -402,6 +410,7 @@
             // lblLivro3
             // 
             this.lblLivro3.AutoSize = true;
+            this.lblLivro3.BackColor = System.Drawing.Color.Transparent;
             this.lblLivro3.Enabled = false;
             this.lblLivro3.Font = new System.Drawing.Font("Candara", 12F);
             this.lblLivro3.Location = new System.Drawing.Point(366, 106);
@@ -411,11 +420,25 @@
             this.lblLivro3.Text = "LVR";
             this.lblLivro3.Visible = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(28, 38);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 58;
+            this.pictureBox1.TabStop = false;
+            // 
             // CadastroDoacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(442, 409);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblLivro3);
             this.Controls.Add(this.lblLivro2);
             this.Controls.Add(this.lblLivro1);
@@ -445,9 +468,12 @@
             this.Controls.Add(this.lblDescricaoProduto);
             this.Controls.Add(this.txtDescricaoProduto);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "CadastroDoacao";
             this.Text = "CadastroDoacao";
             this.Load += new System.EventHandler(this.CadastroDoacao_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -482,5 +508,6 @@
         private System.Windows.Forms.Label lblLivro1;
         private System.Windows.Forms.Label lblLivro2;
         private System.Windows.Forms.Label lblLivro3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

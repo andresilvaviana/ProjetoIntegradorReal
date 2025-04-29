@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace ProjetoIntegradorReal
 {
@@ -79,6 +80,18 @@ namespace ProjetoIntegradorReal
             Usuario.ListaUsuario.Add(us3);
             Usuario.ListaUsuario.Add(us4);
             Usuario.ListaUsuario.Add(us5);
+        }
+
+        private void chkMostrar_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkMostrar.Checked == true)
+            {
+                txtSenha.PasswordChar = '\0';
+            }
+            else
+            {
+                txtSenha.PasswordChar = '*';
+            }
         }
     }
 }

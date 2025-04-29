@@ -50,12 +50,14 @@
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.grbStatus.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblRegistro
             // 
             this.lblRegistro.AutoSize = true;
+            this.lblRegistro.BackColor = System.Drawing.Color.Transparent;
             this.lblRegistro.Font = new System.Drawing.Font("Candara", 12F);
             this.lblRegistro.Location = new System.Drawing.Point(136, 11);
             this.lblRegistro.Name = "lblRegistro";
@@ -66,8 +68,9 @@
             // lblDescricao
             // 
             this.lblDescricao.AutoSize = true;
+            this.lblDescricao.BackColor = System.Drawing.Color.Transparent;
             this.lblDescricao.Font = new System.Drawing.Font("Candara", 12F);
-            this.lblDescricao.Location = new System.Drawing.Point(26, 225);
+            this.lblDescricao.Location = new System.Drawing.Point(26, 248);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(74, 19);
             this.lblDescricao.TabIndex = 35;
@@ -76,7 +79,7 @@
             // txtDescricao
             // 
             this.txtDescricao.Font = new System.Drawing.Font("Candara", 12F);
-            this.txtDescricao.Location = new System.Drawing.Point(30, 247);
+            this.txtDescricao.Location = new System.Drawing.Point(30, 270);
             this.txtDescricao.Multiline = true;
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(363, 99);
@@ -84,6 +87,7 @@
             // 
             // grbStatus
             // 
+            this.grbStatus.BackColor = System.Drawing.Color.Transparent;
             this.grbStatus.Controls.Add(this.rdbInativo);
             this.grbStatus.Controls.Add(this.rdbAtivo);
             this.grbStatus.Controls.Add(this.rdbAguardando);
@@ -140,7 +144,7 @@
             // txtCPFRecebedor
             // 
             this.txtCPFRecebedor.Font = new System.Drawing.Font("Candara", 12F);
-            this.txtCPFRecebedor.Location = new System.Drawing.Point(248, 379);
+            this.txtCPFRecebedor.Location = new System.Drawing.Point(248, 402);
             this.txtCPFRecebedor.Name = "txtCPFRecebedor";
             this.txtCPFRecebedor.Size = new System.Drawing.Size(145, 27);
             this.txtCPFRecebedor.TabIndex = 39;
@@ -148,8 +152,9 @@
             // lblCPFDoador
             // 
             this.lblCPFDoador.AutoSize = true;
+            this.lblCPFDoador.BackColor = System.Drawing.Color.Transparent;
             this.lblCPFDoador.Font = new System.Drawing.Font("Candara", 12F);
-            this.lblCPFDoador.Location = new System.Drawing.Point(26, 357);
+            this.lblCPFDoador.Location = new System.Drawing.Point(26, 380);
             this.lblCPFDoador.Name = "lblCPFDoador";
             this.lblCPFDoador.Size = new System.Drawing.Size(110, 19);
             this.lblCPFDoador.TabIndex = 40;
@@ -158,8 +163,9 @@
             // lblCPFRecebedor
             // 
             this.lblCPFRecebedor.AutoSize = true;
+            this.lblCPFRecebedor.BackColor = System.Drawing.Color.Transparent;
             this.lblCPFRecebedor.Font = new System.Drawing.Font("Candara", 12F);
-            this.lblCPFRecebedor.Location = new System.Drawing.Point(244, 357);
+            this.lblCPFRecebedor.Location = new System.Drawing.Point(244, 380);
             this.lblCPFRecebedor.Name = "lblCPFRecebedor";
             this.lblCPFRecebedor.Size = new System.Drawing.Size(136, 19);
             this.lblCPFRecebedor.TabIndex = 41;
@@ -168,7 +174,7 @@
             // lblLinha
             // 
             this.lblLinha.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblLinha.Location = new System.Drawing.Point(14, 150);
+            this.lblLinha.Location = new System.Drawing.Point(14, 163);
             this.lblLinha.Name = "lblLinha";
             this.lblLinha.Size = new System.Drawing.Size(400, 2);
             this.lblLinha.TabIndex = 50;
@@ -177,15 +183,16 @@
             // 
             this.btnVoltar.BackColor = System.Drawing.SystemColors.Window;
             this.btnVoltar.Font = new System.Drawing.Font("Candara", 12F);
-            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVoltar.ImageKey = "(nenhum/a)";
-            this.btnVoltar.Location = new System.Drawing.Point(128, 437);
+            this.btnVoltar.Location = new System.Drawing.Point(30, 460);
             this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnVoltar.Size = new System.Drawing.Size(111, 34);
             this.btnVoltar.TabIndex = 52;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
@@ -194,20 +201,19 @@
             this.btnCadastrar.BackColor = System.Drawing.SystemColors.Window;
             this.btnCadastrar.Font = new System.Drawing.Font("Candara", 12F);
             this.btnCadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrar.Image")));
-            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCadastrar.Location = new System.Drawing.Point(282, 437);
+            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCadastrar.Location = new System.Drawing.Point(282, 460);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(111, 34);
             this.btnCadastrar.TabIndex = 51;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // txtCPFDoador
             // 
             this.txtCPFDoador.Font = new System.Drawing.Font("Candara", 12F);
-            this.txtCPFDoador.Location = new System.Drawing.Point(30, 379);
+            this.txtCPFDoador.Location = new System.Drawing.Point(30, 402);
             this.txtCPFDoador.Name = "txtCPFDoador";
             this.txtCPFDoador.Size = new System.Drawing.Size(145, 27);
             this.txtCPFDoador.TabIndex = 38;
@@ -215,8 +221,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Candara", 12F);
-            this.label2.Location = new System.Drawing.Point(16, 163);
+            this.label2.Location = new System.Drawing.Point(16, 186);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 19);
             this.label2.TabIndex = 44;
@@ -226,7 +233,7 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Candara", 12F);
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(20, 185);
+            this.comboBox2.Location = new System.Drawing.Point(20, 208);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(116, 27);
             this.comboBox2.TabIndex = 45;
@@ -235,7 +242,7 @@
             // 
             this.comboBox3.Font = new System.Drawing.Font("Candara", 12F);
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(288, 185);
+            this.comboBox3.Location = new System.Drawing.Point(288, 208);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(116, 27);
             this.comboBox3.TabIndex = 46;
@@ -244,7 +251,7 @@
             // 
             this.comboBox4.Font = new System.Drawing.Font("Candara", 12F);
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(155, 185);
+            this.comboBox4.Location = new System.Drawing.Point(155, 208);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(116, 27);
             this.comboBox4.TabIndex = 47;
@@ -252,8 +259,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Candara", 12F);
-            this.label3.Location = new System.Drawing.Point(284, 163);
+            this.label3.Location = new System.Drawing.Point(284, 186);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(112, 19);
             this.label3.TabIndex = 48;
@@ -262,18 +270,38 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Candara", 12F);
-            this.label4.Location = new System.Drawing.Point(151, 163);
+            this.label4.Location = new System.Drawing.Point(151, 186);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 19);
             this.label4.TabIndex = 49;
             this.label4.Text = "SubCategoria 2";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Window;
+            this.button1.Font = new System.Drawing.Font("Candara", 12F);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.ImageKey = "(nenhum/a)";
+            this.button1.Location = new System.Drawing.Point(155, 460);
+            this.button1.Name = "button1";
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.button1.Size = new System.Drawing.Size(111, 34);
+            this.button1.TabIndex = 53;
+            this.button1.Text = "Deletar";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // StatusDoacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 495);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(429, 527);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.lblLinha);
@@ -292,7 +320,11 @@
             this.Controls.Add(this.lblDescricao);
             this.Controls.Add(this.txtDescricao);
             this.Controls.Add(this.lblRegistro);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "StatusDoacao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StatusDoacao";
             this.Load += new System.EventHandler(this.StatusDoacao_Load);
             this.grbStatus.ResumeLayout(false);
@@ -324,5 +356,6 @@
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }

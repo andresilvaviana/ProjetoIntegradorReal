@@ -45,5 +45,12 @@ namespace ProjetoIntegradorReal
             CadastroPessoas form = new CadastroPessoas();
             form.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("REDOA v1.5 criador pela eqp3 ", "informação!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+        }
     }
 }

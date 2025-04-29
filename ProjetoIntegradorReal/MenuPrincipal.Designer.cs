@@ -67,7 +67,7 @@
             this.btnCadastroDoacao.Location = new System.Drawing.Point(11, 78);
             this.btnCadastroDoacao.Name = "btnCadastroDoacao";
             this.btnCadastroDoacao.Size = new System.Drawing.Size(169, 60);
-            this.btnCadastroDoacao.TabIndex = 0;
+            this.btnCadastroDoacao.TabIndex = 3;
             this.btnCadastroDoacao.Text = "Cadastor de\r\nDoação";
             this.btnCadastroDoacao.UseVisualStyleBackColor = false;
             this.btnCadastroDoacao.Click += new System.EventHandler(this.btnCadastroDoacao_Click);
@@ -84,7 +84,7 @@
             this.btnCadastroPedido.Location = new System.Drawing.Point(186, 7);
             this.btnCadastroPedido.Name = "btnCadastroPedido";
             this.btnCadastroPedido.Size = new System.Drawing.Size(169, 60);
-            this.btnCadastroPedido.TabIndex = 1;
+            this.btnCadastroPedido.TabIndex = 2;
             this.btnCadastroPedido.Text = "Cadastro de\r\nPedido";
             this.btnCadastroPedido.UseVisualStyleBackColor = false;
             this.btnCadastroPedido.Click += new System.EventHandler(this.btnCadastroPedido_Click);
@@ -101,7 +101,7 @@
             this.btnEditarDoacao.Location = new System.Drawing.Point(11, 8);
             this.btnEditarDoacao.Name = "btnEditarDoacao";
             this.btnEditarDoacao.Size = new System.Drawing.Size(169, 60);
-            this.btnEditarDoacao.TabIndex = 2;
+            this.btnEditarDoacao.TabIndex = 1;
             this.btnEditarDoacao.Text = "Editar\r\nDoação";
             this.btnEditarDoacao.UseVisualStyleBackColor = false;
             this.btnEditarDoacao.Click += new System.EventHandler(this.btnEditarDoacao_Click);
@@ -112,7 +112,7 @@
             this.btnSelecionar.Location = new System.Drawing.Point(902, 25);
             this.btnSelecionar.Name = "btnSelecionar";
             this.btnSelecionar.Size = new System.Drawing.Size(121, 27);
-            this.btnSelecionar.TabIndex = 3;
+            this.btnSelecionar.TabIndex = 6;
             this.btnSelecionar.Text = "Selecionar";
             this.btnSelecionar.UseVisualStyleBackColor = false;
             // 
@@ -122,7 +122,7 @@
             this.btnPesquisar.Location = new System.Drawing.Point(902, 58);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(121, 27);
-            this.btnPesquisar.TabIndex = 4;
+            this.btnPesquisar.TabIndex = 8;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
@@ -142,7 +142,7 @@
             this.cbxCategoria.Location = new System.Drawing.Point(776, 58);
             this.cbxCategoria.Name = "cbxCategoria";
             this.cbxCategoria.Size = new System.Drawing.Size(121, 27);
-            this.cbxCategoria.TabIndex = 6;
+            this.cbxCategoria.TabIndex = 7;
             // 
             // comboBox3
             // 
@@ -151,7 +151,7 @@
             this.comboBox3.Location = new System.Drawing.Point(653, 111);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(120, 27);
-            this.comboBox3.TabIndex = 7;
+            this.comboBox3.TabIndex = 9;
             // 
             // comboBox4
             // 
@@ -160,7 +160,7 @@
             this.comboBox4.Location = new System.Drawing.Point(776, 111);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(120, 27);
-            this.comboBox4.TabIndex = 8;
+            this.comboBox4.TabIndex = 10;
             // 
             // comboBox5
             // 
@@ -169,7 +169,7 @@
             this.comboBox5.Location = new System.Drawing.Point(902, 111);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(120, 27);
-            this.comboBox5.TabIndex = 9;
+            this.comboBox5.TabIndex = 11;
             // 
             // lstBusca
             // 
@@ -203,7 +203,7 @@
             this.btnCadastrarPessoa.Location = new System.Drawing.Point(186, 78);
             this.btnCadastrarPessoa.Name = "btnCadastrarPessoa";
             this.btnCadastrarPessoa.Size = new System.Drawing.Size(169, 60);
-            this.btnCadastrarPessoa.TabIndex = 12;
+            this.btnCadastrarPessoa.TabIndex = 4;
             this.btnCadastrarPessoa.Text = "Cadastrar\r\nPessoa";
             this.btnCadastrarPessoa.UseVisualStyleBackColor = false;
             this.btnCadastrarPessoa.Click += new System.EventHandler(this.btnCadastrarPessoa_Click);
@@ -211,6 +211,7 @@
             // lblPedidosDoacao
             // 
             this.lblPedidosDoacao.AutoSize = true;
+            this.lblPedidosDoacao.BackColor = System.Drawing.Color.Transparent;
             this.lblPedidosDoacao.Font = new System.Drawing.Font("Candara", 12F);
             this.lblPedidosDoacao.Location = new System.Drawing.Point(657, 33);
             this.lblPedidosDoacao.Name = "lblPedidosDoacao";
@@ -221,6 +222,7 @@
             // lblCategoria
             // 
             this.lblCategoria.AutoSize = true;
+            this.lblCategoria.BackColor = System.Drawing.Color.Transparent;
             this.lblCategoria.Font = new System.Drawing.Font("Candara", 12F);
             this.lblCategoria.Location = new System.Drawing.Point(695, 66);
             this.lblCategoria.Name = "lblCategoria";
@@ -231,8 +233,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 535);
+            this.pictureBox1.Location = new System.Drawing.Point(24, 535);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(169, 55);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -259,15 +262,17 @@
             this.button1.Location = new System.Drawing.Point(944, 596);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 20);
-            this.button1.TabIndex = 22;
+            this.button1.TabIndex = 12;
             this.button1.Text = "Sobre";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(281, 547);
+            this.pictureBox2.Location = new System.Drawing.Point(291, 547);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(159, 43);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -276,10 +281,11 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(205, 535);
+            this.pictureBox3.Location = new System.Drawing.Point(199, 522);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(70, 55);
+            this.pictureBox3.Size = new System.Drawing.Size(86, 74);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 24;
             this.pictureBox3.TabStop = false;
@@ -289,6 +295,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1046, 623);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -311,7 +319,10 @@
             this.Controls.Add(this.btnCadastroPedido);
             this.Controls.Add(this.btnCadastroDoacao);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MenuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

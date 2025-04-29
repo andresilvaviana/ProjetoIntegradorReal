@@ -74,6 +74,7 @@
             // lblBusca
             // 
             this.lblBusca.AutoSize = true;
+            this.lblBusca.BackColor = System.Drawing.Color.Transparent;
             this.lblBusca.Font = new System.Drawing.Font("Candara", 12F);
             this.lblBusca.Location = new System.Drawing.Point(46, 24);
             this.lblBusca.Name = "lblBusca";
@@ -115,6 +116,7 @@
             // lblNome
             // 
             this.lblNome.AutoSize = true;
+            this.lblNome.BackColor = System.Drawing.Color.Transparent;
             this.lblNome.Enabled = false;
             this.lblNome.Font = new System.Drawing.Font("Candara", 12F);
             this.lblNome.Location = new System.Drawing.Point(21, 181);
@@ -127,6 +129,7 @@
             // lblEndereco
             // 
             this.lblEndereco.AutoSize = true;
+            this.lblEndereco.BackColor = System.Drawing.Color.Transparent;
             this.lblEndereco.Enabled = false;
             this.lblEndereco.Font = new System.Drawing.Font("Candara", 12F);
             this.lblEndereco.Location = new System.Drawing.Point(21, 233);
@@ -139,6 +142,7 @@
             // lblCPF
             // 
             this.lblCPF.AutoSize = true;
+            this.lblCPF.BackColor = System.Drawing.Color.Transparent;
             this.lblCPF.Enabled = false;
             this.lblCPF.Font = new System.Drawing.Font("Candara", 12F);
             this.lblCPF.Location = new System.Drawing.Point(175, 285);
@@ -162,6 +166,7 @@
             // lblTefone
             // 
             this.lblTefone.AutoSize = true;
+            this.lblTefone.BackColor = System.Drawing.Color.Transparent;
             this.lblTefone.Enabled = false;
             this.lblTefone.Font = new System.Drawing.Font("Candara", 12F);
             this.lblTefone.Location = new System.Drawing.Point(21, 285);
@@ -173,6 +178,7 @@
             // 
             // grbSelecionar
             // 
+            this.grbSelecionar.BackColor = System.Drawing.Color.Transparent;
             this.grbSelecionar.Controls.Add(this.rdbRecebedor);
             this.grbSelecionar.Controls.Add(this.rdbDoador);
             this.grbSelecionar.Font = new System.Drawing.Font("Candara", 12F);
@@ -209,14 +215,13 @@
             this.btnCadastrar.BackColor = System.Drawing.SystemColors.Window;
             this.btnCadastrar.Font = new System.Drawing.Font("Candara", 12F);
             this.btnCadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrar.Image")));
-            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastrar.Location = new System.Drawing.Point(178, 360);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(111, 34);
             this.btnCadastrar.TabIndex = 18;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // lblLinha
@@ -229,11 +234,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(24, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
@@ -241,15 +247,15 @@
             // 
             this.btnVoltar.BackColor = System.Drawing.SystemColors.Window;
             this.btnVoltar.Font = new System.Drawing.Font("Candara", 12F);
-            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVoltar.ImageKey = "(nenhum/a)";
             this.btnVoltar.Location = new System.Drawing.Point(24, 360);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(111, 34);
             this.btnVoltar.TabIndex = 21;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
@@ -257,7 +263,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 434);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(322, 434);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblLinha);
@@ -275,7 +283,10 @@
             this.Controls.Add(this.txtBusca);
             this.Controls.Add(this.btnPesquisar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "CadastroPessoas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroPessoas";
             this.Load += new System.EventHandler(this.CadastroPessoas_Load);
             this.grbSelecionar.ResumeLayout(false);
