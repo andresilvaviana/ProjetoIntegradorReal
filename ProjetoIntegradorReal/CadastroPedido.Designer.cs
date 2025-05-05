@@ -177,7 +177,6 @@
             this.txtInformacoes.TabIndex = 56;
             this.txtInformacoes.UseWaitCursor = true;
             this.txtInformacoes.Visible = false;
-            this.txtInformacoes.TextChanged += new System.EventHandler(this.txtInformacoes_TextChanged);
             // 
             // lblCesta
             // 
